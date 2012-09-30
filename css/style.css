@@ -1,0 +1,74 @@
+/*---The Browser Upgrade Notice---*/
+
+#upgrade-please {
+    position: fixed!important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25px;
+    background: url('../img/upgrade_bg.png') repeat #b3d9da;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    z-index: 99;
+}
+
+#upgrade-please section {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #upgrade-please section p {
+        float: left;
+        margin: 0 10px 0 0;
+        padding: 2px 0 0;
+    }
+
+    #upgrade-please section ul {
+        float: left;
+        margin: 0 0 0 5px;
+    }
+
+        #upgrade-please section ul li {
+            float: left;
+            display: inline;
+        }
+
+            #upgrade-please section ul li a {
+                background: url('../img/browser_icons.png') no-repeat transparent;
+                width: 22px;
+                height: 22px;
+                margin: 0 5px;
+                text-indent: -3333px;
+                display: block;
+                overflow: hidden;
+                -webkit-transition: none;
+                transition: none;
+            }
+
+            #upgrade-please section ul li a[title="Google Chrome"] {background-position: 0 0;}
+
+            #upgrade-please section ul li a[title="Google Chrome"]:hover {background-position: 0 -22px;}
+
+            #upgrade-please section ul li a[title="Apple Safari"] {background-position: -40px 0;}
+
+            #upgrade-please section ul li a[title="Apple Safari"]:hover {background-position: -40px -22px;}
+
+            #upgrade-please section ul li a[title="Mozilla Firefox"] {background-position: -80px 0;}
+
+            #upgrade-please section ul li a[title="Mozilla Firefox"]:hover {background-position: -80px -22px;}
+
+            #upgrade-please section ul li a[title="Opera Browser"] {background-position: -120px 0;}
+
+            #upgrade-please section ul li a[title="Opera Browser"]:hover {background-position: -120px -22px;}
+
+            #upgrade-please section ul li a[title="Internet Explorer"] {background-position: -160px 0;}
+
+            #upgrade-please section ul li a[title="Internet Explorer"]:hover {background-position: -160px -22px;}
+
+/*---Internet Explorer---*/
+
+html.lt-ie8 {margin: 30px 0 0!important;}
